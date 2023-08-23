@@ -1,0 +1,185 @@
+/*HOME*/
+
+.puertoblest{
+    background-image: url(../img/CAFE.jpg);
+    background-size: cover;
+    height: 100vh;
+div{
+h1{
+    color: white;
+    text-align: center;
+    font-family:  'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+h2{
+    color: wheat;
+    text-align: center;
+    font-family:  'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+}
+}
+
+.inicio{
+    height: 100vh;
+p{
+    text-align: center;
+    font-family:  'Oswald', sans-serif;
+    padding: 100px;
+    font-size: 30px;
+}
+}
+
+/*PRODUCTOS*/
+
+.uvas{
+    width: 100%;
+    background-image: url(../img/cs2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 300px;
+    font-size: 50px;
+    color: white;
+}
+}
+
+.origenes-nuestros{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+.origenes{
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    height: 60vh;
+    flex-direction: column;
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.descripcion{
+    text-align: left;
+    font-family:  'Oswald', sans-serif;
+}
+}
+}
+
+/*ORIGENES*/
+
+.uvas{
+    width: 100%;
+    background-image: url(../img/cs2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+h1{
+    font-family: os;
+    text-align: center;
+    padding: 300px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+}
+
+.origenes-nuestros{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+.origenes{
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    height: 60vh;
+    flex-direction: column;
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.descripcion{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+} 
+}
+
+/* SOBRE NOSOTROS */
+
+.sobrenosotros2{
+    background-image: url(../img/sobrenosotros.jpg);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 300px;
+    font-size: 30px;
+    color: white;
+}
+
+.sobrenosotros{
+p{
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+}
+
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    margin-top: 50px;
+    background-image: url(../img/CONTACTO1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 120px;
+    margin-top: 150px;
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+}
+
+/* PRODUCTOS */
+

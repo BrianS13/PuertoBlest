@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+/*RESET*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+/*BOOTSTRAP CONTACTO*/
+.contacto .inputs {
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif; }
+  .contacto .inputs .input-group .name {
+    margin-right: 13px;
+    width: 280px; }
+  .contacto .inputs .input-group .email {
+    width: 280px; }
+  .contacto .inputs .subject {
+    margin-top: 10px; }
+  .contacto .inputs .message {
+    margin-top: 10px; }
+
+.contacto .button .btn {
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 35px;
+  margin-top: 17px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff2f2;
+  border-radius: 3px; }
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 160px; }
+  header nav ul {
+    text-align: center; }
+    header nav ul div li a img {
+      height: 100px;
+      width: 100px;
+      padding: 30px;
+      border-radius: 100%; }
+    header nav ul li {
+      display: inline-block;
+      list-style: none; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        margin-right: 30px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px; }
+
+/*HOME*/
+.puertoblest {
+  background-image: url(../img/CAFE.jpg);
+  background-size: cover;
+  height: 100vh; }
+  .puertoblest div h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 10px; }
+  .puertoblest div h2 {
+    color: wheat;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 200; }
+
+.inicio {
+  height: 100vh; }
+  .inicio p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 100px;
+    font-size: 30px; }
+
+/*PRODUCTOS*/
+.uvas {
+  width: 100%;
+  background-image: url(../img/cs2.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat; }
+  .uvas h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 300px;
+    font-size: 50px;
+    color: white; }
+
+.origenes-nuestros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh; }
+  .origenes-nuestros .origenes {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    height: 60vh;
+    flex-direction: column; }
+    .origenes-nuestros .origenes img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px; }
+    .origenes-nuestros .origenes .descripcion {
+      text-align: left;
+      font-family: 'Oswald', sans-serif; }
+
+/*ORIGENES*/
+.uvas {
+  width: 100%;
+  background-image: url(../img/cs2.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif; }
+  .uvas h1 {
+    font-family: os;
+    text-align: center;
+    padding: 300px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif; }
+
+.origenes-nuestros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  text-align: left; }
+  .origenes-nuestros .origenes {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    height: 60vh;
+    flex-direction: column; }
+    .origenes-nuestros .origenes img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px; }
+    .origenes-nuestros .origenes .descripcion {
+      text-align: center;
+      font-family: 'Oswald', sans-serif; }
+
+/* SOBRE NOSOTROS */
+.sobrenosotros2 {
+  background-image: url(../img/sobrenosotros.jpg);
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding: 300px;
+  font-size: 30px;
+  color: white; }
+
+.sobrenosotros p {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px; }
+
+/* CONTACTO */
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  margin-top: 50px;
+  background-image: url(../img/CONTACTO1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 120px;
+  margin-top: 150px; }
+  .contacto h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500; }
+  .contacto h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    text-align: center; }
+
+/* PRODUCTOS */
+footer {
+  background-color: black;
+  width: 100%;
+  height: 80px; }
+  footer h3 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px; }
