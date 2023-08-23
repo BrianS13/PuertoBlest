@@ -75,6 +75,10 @@ img{
 .descripcion{
     text-align: left;
     font-family:  'Oswald', sans-serif;
+    p{
+    text-align: left;
+    padding: 15px;
+    }
 }
 }
 }
@@ -89,7 +93,7 @@ img{
     background-repeat: no-repeat;
     font-family: 'Oswald', sans-serif;
 h1{
-    font-family: os;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     padding: 300px;
     font-size: 50px;

@@ -117,6 +117,9 @@ header {
     .origenes-nuestros .origenes .descripcion {
       text-align: left;
       font-family: 'Oswald', sans-serif; }
+      .origenes-nuestros .origenes .descripcion p {
+        text-align: left;
+        padding: 15px; }
 
 /*ORIGENES*/
 .uvas {
@@ -127,7 +130,7 @@ header {
   background-repeat: no-repeat;
   font-family: 'Oswald', sans-serif; }
   .uvas h1 {
-    font-family: os;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     padding: 300px;
     font-size: 50px;
