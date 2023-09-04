@@ -199,7 +199,8 @@ header nav ul {
 
 /* SOBRE NOSOTROS */
 
-.sobrenosotros2 {background-image: url(../img/Sin\ título-1-1.jpg);
+.sobrenosotros2 {
+    background-image: url(../img/Sin\ título-1-1.jpg);
     font-family: 'Oswald', sans-serif;
     text-align: center;
     padding: 300px;

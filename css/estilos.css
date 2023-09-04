@@ -44,13 +44,18 @@ header {
       border-radius: 100%; }
     header nav ul li {
       display: inline-block;
-      list-style: none; }
+      list-style: none;
+      transition: 1s; }
+      header nav ul li:hover {
+        transform: scale(1.2); }
       header nav ul li a {
         text-decoration: none;
         color: white;
         margin-right: 30px;
         font-family: 'Oswald', sans-serif;
         font-size: 18px; }
+        header nav ul li a:hover {
+          color: white; }
 
 /*HOME*/
 .puertoblest {
@@ -159,7 +164,10 @@ header {
       width: 80px;
       height: 80px;
       border-radius: 50%;
-      margin-right: 20px; }
+      margin-right: 20px;
+      transition: 1s; }
+      .origenes-nuestros .origenes img:hover {
+        transform: scale(1.1); }
     .origenes-nuestros .origenes .descripcion {
       text-align: center;
       font-family: 'Oswald', sans-serif; }
@@ -167,6 +175,7 @@ header {
 /* SOBRE NOSOTROS */
 .sobrenosotros2 {
   background-image: url(../img/sobrenosotros.jpg);
+  background-size: cover;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 300px;
@@ -218,3 +227,132 @@ footer {
     padding-top: 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 15px; }
+
+/* HEADER */
+@media screen and (max-width: 480px) {
+  header nav ul li a {
+    font-size: 14px; } }
+
+/* HOME */
+@media screen and (max-width: 1024px) {
+  .puertoblest div h1 {
+    font-size: 40px; }
+  .puertoblest div h2 {
+    font-size: 20px; } }
+
+.inicio p {
+  font-size: 26px; }
+
+@media screen and (max-width: 768px) {
+  .inicio p {
+    font-size: 23px; } }
+
+@media screen and (max-width: 590px) {
+  .puertoblest div h1 {
+    font-size: 30px; }
+  .puertoblest div h2 {
+    font-size: 18px; } }
+
+@media screen and (max-width: 425px) {
+  .puertoblest div h1 {
+    font-size: 18px;
+    padding-top: 10px; }
+  .puertoblest div h2 {
+    font-size: 16px; }
+  .inicio p {
+    font-size: 18px; } }
+
+/* ORIGENES */
+@media screen and (max-width: 768px) {
+  .origenes-nuestros {
+    flex-direction: column; }
+    .origenes-nuestros .origenes {
+      width: 100%;
+      margin: 15px auto; }
+      .origenes-nuestros .origenes img {
+        margin-right: 0; }
+      .origenes-nuestros .origenes .descripcion {
+        text-align: center; } }
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .uvas h1 {
+    padding: 100px;
+    font-size: 40px; } }
+
+/*SOBRE NOSOTROS*/
+@media screen and (max-width: 768px) {
+  .sobrenosotros2 h1 {
+    font-size: 35px; }
+  .sobrenosotros p {
+    font-size: 16px; } }
+
+@media screen and (max-width: 610px) {
+  .sobrenosotros2 {
+    background-image: url(../img/TODOSOBRE.jpg);
+    padding: 200px; }
+  .sobrenosotros p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 400px) {
+  .sobrenosotros2 {
+    padding: 150px; }
+  .sobrenosotros p {
+    font-size: 13px; } }
+
+/* CONTACTO */
+@media screen and (max-width: 771px) {
+  .contacto .inputs .input-group .name {
+    width: 170px; }
+  .contacto .inputs .input-group .email {
+    width: 170px; } }
+
+@media screen and (max-width: 630px) {
+  .contacto {
+    margin-top: 190px; }
+    .contacto .inputs .input-group .name {
+      width: 150px; }
+    .contacto .inputs .input-group .email {
+      width: 150px; } }
+
+@media screen and (max-width: 611px) {
+  .contacto .inputs .input-group .name {
+    width: 130px; }
+  .contacto .inputs .input-group .email {
+    width: 130px; } }
+
+@media screen and (max-width: 471px) {
+  .inputs .input-group .name {
+    width: 100px; }
+  .inputs .input-group .email {
+    width: 100px; } }
+
+@media screen and (max-width: 430px) {
+  .contacto h1 {
+    font-size: 18px; }
+  .contacto .inputs {
+    padding: 30px; }
+    .contacto .inputs .input-group .name {
+      width: 100px; }
+    .contacto .inputs .input-group .email {
+      width: 100px; } }
+
+@media screen and (max-width: 380px) {
+  .contacto .inputs {
+    padding: 30px; }
+    .contacto .inputs .input-group .name {
+      width: 110px; }
+    .contacto .inputs .input-group .email {
+      width: 110px; }
+  .contacto .button .btn {
+    margin-top: -10px; } }
+
+@media screen and (max-width: 360px) {
+  .contacto .inputs .input-group .name {
+    width: 100px; }
+  .contacto .inputs .input-group .email {
+    width: 100px; } }
+
+/* FOOTER */
+@media screen and (max-width: 430px) {
+  footer h3 {
+    font-size: 15px; } }

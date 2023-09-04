@@ -20,12 +20,19 @@ header{
     li{
         display: inline-block;
         list-style: none;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2);
+            }
     a{
         text-decoration: none;
         color: white;
         margin-right: 30px;
         font-family: 'Oswald', sans-serif;
         font-size: 18px;
+        &:hover{
+            color: white;
+            }
     }
     }
     }
